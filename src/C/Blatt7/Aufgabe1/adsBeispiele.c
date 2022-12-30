@@ -1,10 +1,5 @@
 #include "adsBeispiele.h"
 
-//Pfad: Blatt7/Aufgabe1/MemoryTest.h Blatt7/Aufgabe1/adsBeispiele.h
-// Blatt7/Aufgabe1/adsBeispiele.c Blatt7/Aufgabe1/CUnit.h
-// Blatt7/Aufgabe1/CUnit.c Blatt7/Aufgabe1/simpleMain.c
-// Blatt7/Aufgabe2/vector.c Blatt7/Aufgabe2/vector.h
-
 unsigned long int factorial(unsigned int x){
     return x<=1 ? 1:x* factorial(x-1);
 }
